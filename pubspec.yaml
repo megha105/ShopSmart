@@ -1,0 +1,304 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/combined-shape.png
+    - assets/page-1/images/combined-shape-E5n.png
+    - assets/page-1/images/wi-fi.png
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/combined-shape-jBN.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/hide.png
+    - assets/page-1/images/wi-fi-fAQ.png
+    - assets/page-1/images/iconly-bold-home.png
+    - assets/page-1/images/slider.png
+    - assets/page-1/images/arrow-back.png
+    - assets/page-1/images/combined-shape-imv.png
+    - assets/page-1/images/combined-shape-8Fr.png
+    - assets/page-1/images/ph-microphone-light.png
+    - assets/page-1/images/iconly-light-wallet.png
+    - assets/page-1/images/native-home-indicator-Xh2.png
+    - assets/page-1/images/iconly-light-outline-chart.png
+    - assets/page-1/images/battery-AnL.png
+    - assets/page-1/images/search-outline.png
+    - assets/page-1/images/battery-fTn.png
+    - assets/page-1/images/google-GLg.png
+    - assets/page-1/images/google-sRJ.png
+    - assets/page-1/images/wi-fi-gcG.png
+    - assets/page-1/images/mask-group-K5z.png
+    - assets/page-1/images/wi-fi-RNY.png
+    - assets/page-1/images/battery-NBr.png
+    - assets/page-1/images/google.png
+    - assets/page-1/images/combined-shape-WUx.png
+    - assets/page-1/images/battery-24Y.png
+    - assets/page-1/images/arrow-back-8Wt.png
+    - assets/page-1/images/wi-fi-ZDz.png
+    - assets/page-1/images/arrow-back-Z6x.png
+    - assets/page-1/images/native-home-indicator-RHJ.png
+    - assets/page-1/images/circle.png
+    - assets/page-1/images/native-home-indicator-Lp8.png
+    - assets/page-1/images/native-home-indicator.png
+    - assets/page-1/images/wi-fi-JYx.png
+    - assets/page-1/images/hide-DjE.png
+    - assets/page-1/images/hide-NME.png
+    - assets/page-1/images/circle-dHA.png
+    - assets/page-1/images/mask-group-YUY.png
+    - assets/page-1/images/battery-Q3A.png
+    - assets/page-1/images/rectangle-95-yv8.png
+    - assets/page-1/images/battery-fLC.png
+    - assets/page-1/images/battery-dDi.png
+    - assets/page-1/images/battery-Hp4.png
+    - assets/page-1/images/mask-group-1KN.png
+    - assets/page-1/images/iconly-light-wallet-tjr.png
+    - assets/page-1/images/iconly-light-profile.png
+    - assets/page-1/images/circle-EHN.png
+    - assets/page-1/images/wi-fi-E9E.png
+    - assets/page-1/images/google-HdJ.png
+    - assets/page-1/images/iconly-light-profile-RCL.png
+    - assets/page-1/images/combined-shape-BzY.png
+    - assets/page-1/images/battery-nrk.png
+    - assets/page-1/images/more.png
+    - assets/page-1/images/iconly-light-profile-yYU.png
+    - assets/page-1/images/combined-shape-kJ4.png
+    - assets/page-1/images/combined-shape-sFW.png
+    - assets/page-1/images/tick-square.png
+    - assets/page-1/images/battery-XrQ.png
+    - assets/page-1/images/wi-fi-eTz.png
+    - assets/page-1/images/native-home-indicator-jEY.png
+    - assets/page-1/images/iconly-light-profile-wrQ.png
+    - assets/page-1/images/iconly-bold-home-mKe.png
+    - assets/page-1/images/wi-fi-vCY.png
+    - assets/page-1/images/unsplash-zz5lqe-vsmy.png
+    - assets/page-1/images/iconly-light-wallet-Qhv.png
+    - assets/page-1/images/battery-o9i.png
+    - assets/page-1/images/rectangle-95.png
+    - assets/page-1/images/arrow-back-Yba.png
+    - assets/page-1/images/iconly-bold-home-V12.png
+    - assets/page-1/images/wi-fi-3YL.png
+    - assets/page-1/images/search-outline-kxY.png
+    - assets/page-1/images/combined-shape-ieU.png
+    - assets/page-1/images/iconly-light-outline-chart-snG.png
+    - assets/page-1/images/iconly-light-outline-chart-44x.png
+    - assets/page-1/images/icon-next.png
+    - assets/page-1/images/notification.png
+    - assets/page-1/images/native-home-indicator-KWg.png
+    - assets/page-1/images/search.png
+    - assets/page-1/images/battery-nQG.png
+    - assets/page-1/images/back.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/group-162657.png
+    - assets/page-1/images/send-money.png
+    - assets/page-1/images/icon-next-taL.png
+    - assets/page-1/images/icon-next-RqA.png
+    - assets/page-1/images/icon-next-z7a.png
+    - assets/page-1/images/pay-the-bill.png
+    - assets/page-1/images/back-X7W.png
+    - assets/page-1/images/combined-shape-Rya.png
+    - assets/page-1/images/iconly-bold-home-Ndv.png
+    - assets/page-1/images/native-home-indicator-iSt.png
+    - assets/page-1/images/iconly-light-wallet-2M6.png
+    - assets/page-1/images/wi-fi-BDz.png
+    - assets/page-1/images/iconly-light-outline-chart-yip.png
+    - assets/page-1/images/combined-shape-D7n.png
+    - assets/page-1/images/iconly-light-outline-chart-n4Q.png
+    - assets/page-1/images/combined-shape-1xL.png
+    - assets/page-1/images/iconly-bold-home-kf2.png
+    - assets/page-1/images/top.png
+    - assets/page-1/images/vector-ZvY.png
+    - assets/page-1/images/iconly-light-outline-chart-ZuJ.png
+    - assets/page-1/images/arrow-back-yDr.png
+    - assets/page-1/images/group-162612.png
+    - assets/page-1/images/iconly-light-profile-6Me.png
+    - assets/page-1/images/wi-fi-uH2.png
+    - assets/page-1/images/vector-pPz.png
+    - assets/page-1/images/battery-m4L.png
+    - assets/page-1/images/iconly-light-profile-qEx.png
+    - assets/page-1/images/group-162657-YQG.png
+    - assets/page-1/images/wi-fi-tDE.png
+    - assets/page-1/images/rectangle-95-8tG.png
+    - assets/page-1/images/auto-group-zclg.png
+    - assets/page-1/images/rectangle-95-j44.png
+    - assets/page-1/images/arrow-back-G3z.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/iconly-light-wallet-o36.png
+    - assets/page-1/images/combined-shape-mCc.png
+    - assets/page-1/images/rectangle.png
+    - assets/page-1/images/rectangle-95-dHr.png
+    - assets/page-1/images/wi-fi-chW.png
+    - assets/page-1/images/icon-next-92Y.png
+    - assets/page-1/images/group-kF2.png
+    - assets/page-1/images/group-Nnt.png
+    - assets/page-1/images/native-home-indicator-mTn.png
+    - assets/page-1/images/image-20.png
+    - assets/page-1/images/iconly-bold-home-wwe.png
+    - assets/page-1/images/native-home-indicator-rac.png
+    - assets/page-1/images/group-oLt.png
+    - assets/page-1/images/ellipse-bg.png
+    - assets/page-1/images/iconly-light-wallet-XCL.png
+    - assets/page-1/images/unsplash-rgikryhmg2k-bg.png
+    - assets/page-1/images/group-1.png
+    - assets/page-1/images/battery-G3a.png
+    - assets/page-1/images/mask-group-iTA.png
+    - assets/page-1/images/ellipse-bg-gvC.png
+    - assets/page-1/images/image-19.png
+    - assets/page-1/images/ellipse-bg-4ye.png
+    - assets/page-1/images/group-162611.png
+    - assets/page-1/images/mask-group-GMN.png
+    - assets/page-1/images/iconly-light-profile-Mk4.png
+    - assets/page-1/images/ellipse-bg-Ckp.png
+    - assets/page-1/images/image-13.png
+    - assets/page-1/images/iconly-light-home.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/ellipse-bg-Ltx.png
+    - assets/page-1/images/image-12.png
+    - assets/page-1/images/bg.png
+    - assets/page-1/images/bg-iik.png
+    - assets/page-1/images/combined-shape-D2Y.png
+    - assets/page-1/images/group-1-pa4.png
+    - assets/page-1/images/iconly-light-outline-chart-vWc.png
+    - assets/page-1/images/native-home-indicator-BtU.png
+    - assets/page-1/images/arrow-back-jxU.png
+    - assets/page-1/images/notification-jcC.png
+    - assets/page-1/images/combined-shape-sDr.png
+    - assets/page-1/images/wi-fi-QHe.png
+    - assets/page-1/images/icon-notification.png
+    - assets/page-1/images/iconly-bold-wallet.png
+    - assets/page-1/images/close.png
+    - assets/page-1/images/battery-rcp.png
+    - assets/page-1/images/icon-profile.png
+    - assets/page-1/images/wi-fi-Uue.png
+    - assets/page-1/images/image-15.png
+    - assets/page-1/images/profile-image.png
+    - assets/page-1/images/wi-fi-J8Y.png
+    - assets/page-1/images/combined-shape-kWL.png
+    - assets/page-1/images/wi-fi-J9n.png
+    - assets/page-1/images/iconly-bold-home-wkt.png
+    - assets/page-1/images/iconly-light-wallet-8D6.png
+    - assets/page-1/images/-bRS.png
+    - assets/page-1/images/iconly-light-outline-chart-iLG.png
+    - assets/page-1/images/icon-notification-RXW.png
+    - assets/page-1/images/native-home-indicator-FeQ.png
+    - assets/page-1/images/ellipse-bg-hoe.png
+    - assets/page-1/images/iconly-light-profile-bon.png
+    - assets/page-1/images/combined-shape-mNp.png
+    - assets/page-1/images/wi-fi-6ak.png
+    - assets/page-1/images/iconly-bold-home-1p4.png
+    - assets/page-1/images/iconly-light-wallet-Zex.png
+    - assets/page-1/images/setting.png
+    - assets/page-1/images/combined-shape-v9v.png
+    - assets/page-1/images/native-home-indicator-N3r.png
+    - assets/page-1/images/wi-fi-KZz.png
+    - assets/page-1/images/battery-Yoz.png
+    - assets/page-1/images/back-8bA.png
+    - assets/page-1/images/switch.png
+    - assets/page-1/images/combined-shape-zrC.png
+    - assets/page-1/images/iconly-light-profile-UWU.png
+    - assets/page-1/images/battery-1MJ.png
+    - assets/page-1/images/auto-group-smu2.png
+    - assets/page-1/images/battery-1on.png
+    - assets/page-1/images/search-C32.png
+    - assets/page-1/images/edit.png
+    - assets/page-1/images/icon-checkmark.png
+    - assets/page-1/images/auto-group-ayl4.png
+    - assets/page-1/images/iconly-light-outline-chart-TCU.png
+    - assets/page-1/images/back-1Ag.png
+    - assets/page-1/images/combined-shape-nGY.png
+    - assets/page-1/images/back-QLx.png
+    - assets/page-1/images/wi-fi-nVE.png
+    - assets/page-1/images/iconly-light-outline-chart-NNt.png
+    - assets/page-1/images/battery-PTW.png
+    - assets/page-1/images/icon-lock.png
+    - assets/page-1/images/battery-cLQ.png
+    - assets/page-1/images/back-mVr.png
+    - assets/page-1/images/back-n6U.png
+    - assets/page-1/images/auto-group-evhe.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
